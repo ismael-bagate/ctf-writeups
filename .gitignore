@@ -1,0 +1,34 @@
+# --- Secrets: never commit these ---
+.env
+*.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.kdbx
+secrets.*
+credentials*
+*.ovpn
+
+# --- Captures and dumps (can contain sensitive data) ---
+*.pcap
+*.pcapng
+*.dmp
+*.mem
+*.raw
+
+# --- VMs and heavy files ---
+*.ova
+*.vmdk
+*.vdi
+*.iso
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# --- System ---
+.DS_Store
+Thumbs.db
